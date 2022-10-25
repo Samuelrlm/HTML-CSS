@@ -149,18 +149,21 @@ img[src="logo_horizontal.png"]{
 .btn .enviar button{
     width: 100%;
     padding: 5px 0px;
-    background: #f32323;
+    background: #ffffff;
     color: #000000;
-    border: none;
+  
     border-radius: 5px;
     outline: none;
     font-weight: 800;
     cursor: pointer;
     transition: all 300ms ease;
+    border-color: #f32323;
 }
 
 .btn .enviar button:hover{
-    background: #ff7171;
+    background: #f32323;
+    border: none;
+    border-color: none;
 }
 
 .btn .voltar button{
@@ -178,5 +181,5 @@ img[src="logo_horizontal.png"]{
 }
 
 .btn .voltar button:hover{
-    background: #e4dedd;
+    background: #7a7a7a;
 }
